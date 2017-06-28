@@ -2,12 +2,20 @@
 
 +++
 
-# I am QA. Why should I care?
-
-+++
-
-# but I am QA. Why should I care?
+# ... but I am QA. Why should I care?
 
 ---
 
-What good test is? 
+#What good test is? 
+
++++
+
+#Strength
+
++++ 
+
+```
+if (isAwesome){
+  return true;
+}
+```
