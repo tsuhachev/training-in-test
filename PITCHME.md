@@ -26,3 +26,22 @@
 
 ---
 
+#Why do you need tests in isolation?
+
+---
+
+#Structure, Naming ... 
+
++++
+
+```
+public class Simple {
+
+    /**
+     * makes a very simple action
+     */
+    public void action() {
+        System.out.println("Action's done");
+    }
+}
+```
