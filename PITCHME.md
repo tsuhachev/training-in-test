@@ -10,12 +10,19 @@
 
 +++
 
-#Strength
+#Strong
 
 +++ 
 
-```
-if (isAwesome){
-  return true;
-}
-```
+#Maintainable
+
++++
+
+#Readable
+
++++
+
+#Fast
+
+---
+
