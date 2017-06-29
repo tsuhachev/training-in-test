@@ -35,13 +35,23 @@
 +++
 
 ```
-public class Simple {
+public class Gitar {
 
-    /**
-     * makes a very simple action
-     */
-    public void action() {
-        System.out.println("Action's done");
+    static final String BRUNNNN = "Brunnnn..";
+
+    public String play() {
+        return BRUNNNN;
     }
+}
+```
+```
+@Test
+public void play() throws Exception {
+    // give
+    Gitar gitar = new Gitar();
+    // when
+    String actualSound = gitar.play();
+    // then 
+    assertEquals(Gitar.BRUNNNN, actualSound);
 }
 ```
