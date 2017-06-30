@@ -68,9 +68,7 @@ public class GitarTest {
 }
 ```
 
----
-
----?image=assets/rockgroup.jpg
+---?image=assets/rockgroup.jpg&size=auto 100%
 
 
 
