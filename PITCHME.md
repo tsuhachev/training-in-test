@@ -26,11 +26,19 @@
 
 ---
 
-#Why do you need tests in isolation?
+#Why testing in isolation?
 
 ---
 
 #Structure, Naming ... 
+
++++
+
+#Java Project: main and test
+
++++
+
+#@RunWith
 
 +++
 
@@ -45,13 +53,24 @@ public class Gitar {
 }
 ```
 ```
-@Test
-public void play() throws Exception {
-    // give
-    Gitar gitar = new Gitar();
-    // when
-    String actualSound = gitar.play();
-    // then 
-    assertEquals(Gitar.BRUNNNN, actualSound);
+public class GitarTest {
+
+    @Test
+    public void play() throws Exception {
+        // give
+        Gitar gitar = new Gitar();
+        // when
+        String actualSound = gitar.play();
+        // then
+        assertEquals(Gitar.BRUNNNN, actualSound);
+    }
+
 }
 ```
+
+---
+
+---?image=assets/rockgroup.jpg
+
+
+
