@@ -2,7 +2,7 @@
 
 +++
 
-# ... but I am QA. Why should I care?
+## ... but I am QA. Why should I care?
 
 ---
 
@@ -10,23 +10,31 @@
 
 +++
 
-#Strong
-
-+++ 
-
-#Maintainable
+##Strong
 
 +++
 
-#Readable
+##Maintainable
 
 +++
 
-#Fast
+##Readable
+
++++
+
+##Fast
 
 ---
 
 #Why testing in isolation?
+
++++
+
+##Validates design and implementation
+
++++
+
+##Testing of pure logic 
 
 ---
 
@@ -34,11 +42,25 @@
 
 +++
 
-#Java Project: main and test
+##Java Project 
 
 +++
 
-#@RunWith
+###Production and Test contexts
+```
+main/
+  java
+    com.company
+      MyClass
+test/
+  java
+    com.company
+      MyClassTest
+```
+
++++
+
+##@RunWith
 
 +++
 
@@ -70,5 +92,44 @@ public class GitarTest {
 
 ---?image=assets/rockgroup.jpg&size=auto 100%
 
++++
 
+##Let's rock!
 
++++
+
+##Coverage: class, line, branch
+
+---
+
+##Unit tests are not always easy
+
++++
+
+##Static methods
+
++++?image=assets/monster.jpg&size=auto 100%
+
+##Monster classes
+
++++
+
+##Refactoring may become a trap
+
+---
+
+#Summary
+
++++
+
+##Life is hard without unit tests
+
++++
+
+##Untestable code mean bad design
+
++++
+
+##Developer does unit testing
+
++++?image=assets/questions.png&size=auto 100%
