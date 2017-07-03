@@ -108,9 +108,10 @@ public class GitarTest {
 
 ##Static methods
 
-+++?image=assets/monster.jpg&size=auto 100%
++++
 
 ##Monster classes
+![monsterClass](assets/monster.jpg)
 
 +++
 
