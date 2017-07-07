@@ -1,3 +1,7 @@
+##Tests
+#will safe
+##the world
+
 # Unit testing is easy ...
 
 +++
@@ -147,7 +151,9 @@ public class GitarTest {
 
 +++
 
-##Life's hard without unit tests
+##Life's hard
+###without
+##unit tests
 
 +++
 
