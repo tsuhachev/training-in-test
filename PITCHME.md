@@ -118,3 +118,14 @@ public class GitarTest {
 ###does NOT do
 ##unit testing 
 ---?image=assets/questions.png&size=auto 50%
+---
+##Homework
++++
+###Write unit test for
+###com.booxware.training.simple.todo.Concert
++++
+* write init test in a separate branch
+* describe how do you find implementation and why
+* did you find a bug by unit test?
+* do not forget to check the coverage
+* drop pull request to a common chat for cross review
