@@ -2,11 +2,13 @@
 
 +++
 
-## ... but I am QA. Why should I care?
+## ... but I am QA ...
+##Why should I care?
 
 ---
 
-#What good test is? 
+##What is a
+#good test? 
 
 +++
 
@@ -30,23 +32,27 @@
 
 +++
 
-##Validates design and implementation
+##Validates design
 
 +++
 
-##Testing of pure logic 
+##Pushes towards refactoring
+
++++
+
+##Checks only logic
+
++++
+
+##Identifies dependencies
 
 ---
 
-#Structure, Naming ... 
+#Java Project 
 
 +++
 
-##Java Project 
-
-+++
-
-###Production and Test contexts
+###Naming
 ```
 main/
   java
@@ -60,7 +66,30 @@ test/
 
 +++
 
+###Production and Test
+###contexts
+
+---
+
+#JUnit
+
++++
+
+##@Test
+
++++
+
 ##@RunWith
+
++++
+
+##Each test
+##runs
+##in separate thread
+
++++
+
+##Test structure
 
 +++
 
@@ -79,7 +108,7 @@ public class GitarTest {
 
     @Test
     public void play() throws Exception {
-        // give
+        // given
         Gitar gitar = new Gitar();
         // when
         String actualSound = gitar.play();
@@ -90,27 +119,21 @@ public class GitarTest {
 }
 ```
 
----?image=assets/rockgroup.jpg&size=auto 100%
+---
 
-+++
+#Let's rock!
 
-##Let's rock!
-
-+++
++++?image=assets/rockgroup.jpg&size=auto 100%
 
 ##Coverage: class, line, branch
 
----
+---?image=assets/monster.jpg&size=auto 50%
 
-##Unit tests are not always easy
+##Monster methods/classes
 
 +++
 
-##Static methods
-
-+++?image=assets/monster.jpg&size=auto 50%
-
-##Monster classes
+##Static dependencies
 
 +++
 
@@ -122,14 +145,30 @@ public class GitarTest {
 
 +++
 
-##Life is hard without unit tests
+##Life's hard without unit tests
 
 +++
 
-##Untestable code mean bad design
+##Tests
+###should not
+##depend on implementation
 
 +++
 
-##Developer does unit testing
+##Untestable code
+###means
+##bad design
 
-+++?image=assets/questions.png&size=auto 100%
++++
+
+##Developer
+###does do
+##unit testing
+
++++
+
+##Quality engineer 
+###does NOT do
+##unit testing 
+
+---?image=assets/questions.png&size=auto 100%
