@@ -51,6 +51,8 @@ test/
 +++
 ##@RunWith
 +++
+##Surefire
++++
 ##Each test
 ##runs
 ##in separate thread
