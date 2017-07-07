@@ -119,10 +119,12 @@ public class GitarTest {
 ##unit testing 
 ---?image=assets/questions.png&size=auto 50%
 ---
-##Homework
+#Homework
 +++
 ###Write unit test for
-###com.booxware.training.simple.todo.Concert
+```
+com.booxware.training.simple.todo.Concert
+```
 +++
 * write init test in a separate branch
 * describe how do you find implementation and why
