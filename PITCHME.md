@@ -129,6 +129,8 @@ public class GitarTest {
 
 ---?image=assets/monster.jpg&size=auto 50%
 
++++
+
 ##Monster methods/classes
 
 +++
@@ -171,4 +173,4 @@ public class GitarTest {
 ###does NOT do
 ##unit testing 
 
----?image=assets/questions.png&size=auto 100%
+---?image=assets/questions.png&size=auto 50%
