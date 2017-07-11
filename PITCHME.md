@@ -87,6 +87,7 @@ public class GitarTest {
 ---
 #Let's rock!
 +++?image=assets/rockgroup.jpg&size=auto 100%
++++
 ##Coverage: class, line, branch
 ---?image=assets/monster.jpg&size=auto 50%
 +++
